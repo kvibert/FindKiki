@@ -6,7 +6,7 @@ import csv
 
 search_url = 'https://www.douban.com/search?cat=1005&q=kiki'
 search_url_more = 'https://www.douban.com/j/search?q=Kiki&start={}&cat=1005'
-#search_url_more = 'https://www.douban.com/j/search?q=ki&&start={}&cat=1005'
+search_url_more = 'https://api.douban.com/v2/user?q=kiki&start={}'
 user_url = 'https://www.douban.com/people/{}/'
 
 # print('{} {} {} {} {}'.format(movie_name,movie_assess,movie_score,movie_url,movie_intro))
