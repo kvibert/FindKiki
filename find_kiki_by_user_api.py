@@ -9,7 +9,9 @@ import csv
 # 待测试目标网页
 targetUrl = "http://icanhazip.com"
 user_api_url = 'https://api.douban.com/v2/user/{}'
-start_num = 1000004
+#start_num = 1002181
+start_num = 4130403  #2009
+start_num = 57000000 #2011/12/14
 end_num = 147674899#数据不准确
 #end_num = 1000009
 
