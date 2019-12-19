@@ -1,3 +1,4 @@
+# coding=UTF-8
 from queue import Queue
 import requests
 import threading
